@@ -15,14 +15,14 @@ Add to your project build.gradle
 ```groovy
 allprojects {
   repositories {
-    maven { url 'https://jitpack.io' }
+    maven { url "https://artifactory.qiscus.com/artifactory/qiscus-library-open-source" }
   }
 }
 ```
 
 ```groovy
 dependencies {
-  compile 'com.github.qiscus:qiscus-streaming-sdk-android:1.0.1'
+  implementation 'com.qiscus.sdk:streaming:1.0.1'
 }
 ```
 
