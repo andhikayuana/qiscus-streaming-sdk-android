@@ -30,3 +30,4 @@ dependencies {
     compile 'com.android.support:design:27.0.2'
     compile 'com.github.ant-media:LiveVideoBroadcaster:20bde62f6d'
 }
+apply from: 'publish.gradle'
